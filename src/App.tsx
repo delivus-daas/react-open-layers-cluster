@@ -66,7 +66,7 @@ function ClusterExample() {
   }
 
   return (
-      <OpenLayers className={"map"}>
+      <OpenLayers className={"map"} viewOptions={{zoom: 6}}>
         <ClusterLayer features={features} clusterStyle={styleShippingCluster} />
       </OpenLayers>
   );
